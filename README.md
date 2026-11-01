@@ -34,6 +34,8 @@ sudo apt install upx-ucl
 
 N'oubliez pas les techniques d'obfuscation présentées en cours !
 
+SVP, n'utilisez pas l'IA qui pourrait tout faire à votre place... C'est pas noté et c'est purement à visée éducative donc ça a aucun bénéfice.
+
 ## Installation et outils
 
 Un seul désassembleur et un seul débogueur sont nécessaires.
