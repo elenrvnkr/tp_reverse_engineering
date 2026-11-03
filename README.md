@@ -32,7 +32,11 @@ Si vous découvrez qu'un des exécutables est packé avec UPX, installez UPX pui
 sudo apt install upx-ucl
 ```
 
-N'oubliez pas les techniques d'obfuscation présentées en cours !
+N'oubliez pas les techniques d'obfuscation présentées en cours ! Et n'oubliez pas d'accorder les permissions de s'exécuter aux programmes :
+
+```bash
+chmod +x ./tpX
+```
 
 SVP, n'utilisez pas l'IA qui pourrait tout faire à votre place... C'est pas noté et c'est purement à visée éducative donc ça a aucun bénéfice.
 
