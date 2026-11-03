@@ -64,11 +64,6 @@ Il existe également des interfaces graphiques permettant de faciliter l'utilisa
 Aide-mémoire des commandes GDB :  
 https://visualgdb.com/gdbreference/commands/
 
-### Alternative : IDA
-
-Documentation et téléchargement :  
-https://docs.hex-rays.com/getting-started/install-ida
-
 # Les travaux pratiques
 
 ## TP 1
@@ -175,9 +170,9 @@ Le programme poursuit son exécution et affiche le résultat.
 
 ## TP 2
 
-Le binaire a été strippé : les noms des fonctions et des variables ne sont plus disponibles. Dans les ELF compilés avec gcc, le premier argument passé à __libc_start_main est l’adresse du main.
+Le binaire a été strippé : les noms des fonctions et des variables ne sont plus disponibles. Cela fait qu'en ouvrant Ghidra, les fonctions et les variables n'ont plus les noms écrits par le développeur : les noms sont générés automatiquement par Ghidra. Vous êtes aussi placé au début de la fonction d'`entry` et pas au début du main. Dans les ELF compilés avec gcc, dans la fonction `entry`, le premier argument passé à __libc_start_main est l’adresse du main.
 
-Le mot de passe est plus difficile à trouver cette fois !
+Le mot de passe est plus difficile à trouver cette fois ! Si vous êtes un peu perdus n'hésitez pas à comparer ce que ghidra a décompilé du tp1 avec ce qu'il a décompilé du tp2.
 
 Conseil : N'hésitez pas à programmer un petit script pour décoder le flag si nécessaire.
 
